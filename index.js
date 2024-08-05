@@ -124,7 +124,14 @@ document.addEventListener("DOMContentLoaded", () => {
             <a class='link' href='https://discord.com/channels/vthcolvmn' target='blank'>Discord</a>
             <p></p>
             <a class='link' href='https://www.linkedin.com/in/vivian-villanueva-13a4b130b/' target='blank'>LinkedIn</a>
-            <p></p>`;
+            <p></p>
+            <form class='contact-me'>
+            <h2>Contact Me</h2>
+            <label for='name'>Name:</label>
+            <input type='text' id='name' name='name' required>
+            <label for='email'>Email:</label>
+            <input type='email' id='email' name='email' required>
+            <input type='submit' value='Submit'></form>`;
         const closeBtn = document.createElement("button");
         closeBtn.innerText = "close window";
         currentEvent.appendChild(closeBtn);
