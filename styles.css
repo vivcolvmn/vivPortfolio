@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #25032e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+                    url("resources/background_img.jpg");
+    background-color: rgb(21, 2, 34);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: rgb(73, 7, 61, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.my-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.my-details img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-details img:hover {
+    transform: scale(1.1);
+}
+
+.currentEvent,
+.bio,
+.projectLinks,
+.contactInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: rgb(63, 11, 73, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    color: rgb(255, 174, 200);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: #da65dc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(73, 7, 61);
+    color:rgb(255, 174, 200);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(44, 5, 37);
+}
+
+.photoResume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
