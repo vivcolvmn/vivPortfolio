@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const projects = document.querySelector(".projects");
     const contact = document.querySelector(".contact");
     const currentEvent = document.querySelector(".currentEvent");
-    const vivvs = document.querySelector(".vivvs")
 
     let aboutMeStatus = "not clicked";
     let projectsStatus = "not clicked";
@@ -29,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
         aboutMeStatus = "clicked";
         projectsStatus = "not clicked";
         contactStatus = "not clicked";
-        vivvs.innerHTML = "";
 
         aboutMe.src = "resources/about_me2.png";
         projects.src = "resources/projects.png";
@@ -73,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
             aboutMe.src = "resources/about_me.png";
             currentEvent.className = "currentEvent";
             currentEvent.innerHTML = " ";
-            vivvs.innerHTML = "<img src='resources/vvvvv.png' alt='vici'>";
         });
     });
 
